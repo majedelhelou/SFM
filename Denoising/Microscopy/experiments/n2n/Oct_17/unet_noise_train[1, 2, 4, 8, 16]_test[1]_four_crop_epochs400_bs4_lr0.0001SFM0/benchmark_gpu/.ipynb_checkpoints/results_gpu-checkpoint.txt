@@ -1,0 +1,522 @@
+{
+    "noise1_TwoPhoton_BPAE_R": {
+        "noise": 1,
+        "type": "TwoPhoton_BPAE_R",
+        "samples": 200,
+        "psnr": 38.25887725830078,
+        "ssim": 0.928253797891689,
+        "time": 0.0035099506378173826
+    },
+    "noise1_TwoPhoton_BPAE_G": {
+        "noise": 1,
+        "type": "TwoPhoton_BPAE_G",
+        "samples": 200,
+        "psnr": 32.00379932403565,
+        "ssim": 0.8335781429889875,
+        "time": 0.002985382080078125
+    },
+    "noise1_TwoPhoton_BPAE_B": {
+        "noise": 1,
+        "type": "TwoPhoton_BPAE_B",
+        "samples": 200,
+        "psnr": 32.08914283752441,
+        "ssim": 0.9350003830103433,
+        "time": 0.0026467370986938475
+    },
+    "noise1_TwoPhoton_MICE": {
+        "noise": 1,
+        "type": "TwoPhoton_MICE",
+        "samples": 200,
+        "psnr": 34.00252471923828,
+        "ssim": 0.9252528006430591,
+        "time": 0.002577333450317383
+    },
+    "noise1_Confocal_MICE": {
+        "noise": 1,
+        "type": "Confocal_MICE",
+        "samples": 200,
+        "psnr": 38.35240959167481,
+        "ssim": 0.9680771566546301,
+        "time": 0.002814488410949707
+    },
+    "noise1_Confocal_BPAE_R": {
+        "noise": 1,
+        "type": "Confocal_BPAE_R",
+        "samples": 200,
+        "psnr": 37.92302680969238,
+        "ssim": 0.9593245064103703,
+        "time": 0.003071479797363281
+    },
+    "noise1_Confocal_BPAE_G": {
+        "noise": 1,
+        "type": "Confocal_BPAE_G",
+        "samples": 200,
+        "psnr": 33.95915809631347,
+        "ssim": 0.9039081974488186,
+        "time": 0.0029802465438842772
+    },
+    "noise1_Confocal_BPAE_B": {
+        "noise": 1,
+        "type": "Confocal_BPAE_B",
+        "samples": 200,
+        "psnr": 39.13931335449219,
+        "ssim": 0.9793042073009439,
+        "time": 0.0028419399261474607
+    },
+    "noise1_Confocal_FISH": {
+        "noise": 1,
+        "type": "Confocal_FISH",
+        "samples": 200,
+        "psnr": 33.10854179382324,
+        "ssim": 0.9118182616831955,
+        "time": 0.0026675176620483397
+    },
+    "noise1_WideField_BPAE_R": {
+        "noise": 1,
+        "type": "WideField_BPAE_R",
+        "samples": 200,
+        "psnr": 35.545582122802735,
+        "ssim": 0.9105493183277179,
+        "time": 0.0027849531173706056
+    },
+    "noise1_WideField_BPAE_G": {
+        "noise": 1,
+        "type": "WideField_BPAE_G",
+        "samples": 200,
+        "psnr": 33.293963775634765,
+        "ssim": 0.8265504059148799,
+        "time": 0.0028420448303222655
+    },
+    "noise1_WideField_BPAE_B": {
+        "noise": 1,
+        "type": "WideField_BPAE_B",
+        "samples": 200,
+        "psnr": 36.19815422058105,
+        "ssim": 0.9411607794187367,
+        "time": 0.00266110897064209
+    },
+    "noise1_test_mix": {
+        "noise": 1,
+        "type": "test_mix",
+        "samples": 192,
+        "psnr": 35.36533784866333,
+        "ssim": 0.9186009081447203,
+        "time": 0.002572789788246155
+    },
+    "noise2_TwoPhoton_BPAE_R": {
+        "noise": 2,
+        "type": "TwoPhoton_BPAE_R",
+        "samples": 200,
+        "psnr": 39.55181800842285,
+        "ssim": 0.947769824292417,
+        "time": 0.002744169235229492
+    },
+    "noise2_TwoPhoton_BPAE_G": {
+        "noise": 2,
+        "type": "TwoPhoton_BPAE_G",
+        "samples": 200,
+        "psnr": 32.982386169433596,
+        "ssim": 0.8742779877950717,
+        "time": 0.0026343822479248046
+    },
+    "noise2_TwoPhoton_BPAE_B": {
+        "noise": 2,
+        "type": "TwoPhoton_BPAE_B",
+        "samples": 200,
+        "psnr": 32.9433715057373,
+        "ssim": 0.942795753645636,
+        "time": 0.0025553989410400393
+    },
+    "noise2_TwoPhoton_MICE": {
+        "noise": 2,
+        "type": "TwoPhoton_MICE",
+        "samples": 200,
+        "psnr": 34.821661376953124,
+        "ssim": 0.9328783991183657,
+        "time": 0.0027144908905029296
+    },
+    "noise2_Confocal_MICE": {
+        "noise": 2,
+        "type": "Confocal_MICE",
+        "samples": 200,
+        "psnr": 39.831445922851564,
+        "ssim": 0.973890307863158,
+        "time": 0.0028116607666015623
+    },
+    "noise2_Confocal_BPAE_R": {
+        "noise": 2,
+        "type": "Confocal_BPAE_R",
+        "samples": 200,
+        "psnr": 39.27592864990234,
+        "ssim": 0.970222368496829,
+        "time": 0.002673964500427246
+    },
+    "noise2_Confocal_BPAE_G": {
+        "noise": 2,
+        "type": "Confocal_BPAE_G",
+        "samples": 200,
+        "psnr": 35.18296112060547,
+        "ssim": 0.9296265030759002,
+        "time": 0.003324875831604004
+    },
+    "noise2_Confocal_BPAE_B": {
+        "noise": 2,
+        "type": "Confocal_BPAE_B",
+        "samples": 200,
+        "psnr": 40.223917694091796,
+        "ssim": 0.9828945836122702,
+        "time": 0.0025002479553222655
+    },
+    "noise2_Confocal_FISH": {
+        "noise": 2,
+        "type": "Confocal_FISH",
+        "samples": 200,
+        "psnr": 34.481149139404295,
+        "ssim": 0.9283703609061029,
+        "time": 0.0030748510360717775
+    },
+    "noise2_WideField_BPAE_R": {
+        "noise": 2,
+        "type": "WideField_BPAE_R",
+        "samples": 200,
+        "psnr": 37.29875480651855,
+        "ssim": 0.9289170382202744,
+        "time": 0.0025902748107910155
+    },
+    "noise2_WideField_BPAE_G": {
+        "noise": 2,
+        "type": "WideField_BPAE_G",
+        "samples": 200,
+        "psnr": 34.63776847839355,
+        "ssim": 0.8583510481640887,
+        "time": 0.00282930850982666
+    },
+    "noise2_WideField_BPAE_B": {
+        "noise": 2,
+        "type": "WideField_BPAE_B",
+        "samples": 200,
+        "psnr": 36.98601974487305,
+        "ssim": 0.9461236038664689,
+        "time": 0.002642226219177246
+    },
+    "noise2_test_mix": {
+        "noise": 2,
+        "type": "test_mix",
+        "samples": 192,
+        "psnr": 36.417468229929604,
+        "ssim": 0.9329614181560454,
+        "time": 0.0030629287163416543
+    },
+    "noise4_TwoPhoton_BPAE_R": {
+        "noise": 4,
+        "type": "TwoPhoton_BPAE_R",
+        "samples": 200,
+        "psnr": 40.92354164123535,
+        "ssim": 0.9625320767945412,
+        "time": 0.002700190544128418
+    },
+    "noise4_TwoPhoton_BPAE_G": {
+        "noise": 4,
+        "type": "TwoPhoton_BPAE_G",
+        "samples": 200,
+        "psnr": 34.10322662353516,
+        "ssim": 0.9078079969986717,
+        "time": 0.002833232879638672
+    },
+    "noise4_TwoPhoton_BPAE_B": {
+        "noise": 4,
+        "type": "TwoPhoton_BPAE_B",
+        "samples": 200,
+        "psnr": 33.78959159851074,
+        "ssim": 0.9503817527854772,
+        "time": 0.0029776334762573243
+    },
+    "noise4_TwoPhoton_MICE": {
+        "noise": 4,
+        "type": "TwoPhoton_MICE",
+        "samples": 200,
+        "psnr": 35.78726699829102,
+        "ssim": 0.9399776146043844,
+        "time": 0.0026571035385131838
+    },
+    "noise4_Confocal_MICE": {
+        "noise": 4,
+        "type": "Confocal_MICE",
+        "samples": 200,
+        "psnr": 41.38144348144531,
+        "ssim": 0.9791530204312059,
+        "time": 0.0026320981979370116
+    },
+    "noise4_Confocal_BPAE_R": {
+        "noise": 4,
+        "type": "Confocal_BPAE_R",
+        "samples": 200,
+        "psnr": 40.64251159667969,
+        "ssim": 0.9781270162080026,
+        "time": 0.002588629722595215
+    },
+    "noise4_Confocal_BPAE_G": {
+        "noise": 4,
+        "type": "Confocal_BPAE_G",
+        "samples": 200,
+        "psnr": 36.487276763916014,
+        "ssim": 0.9492758884711929,
+        "time": 0.0027076339721679686
+    },
+    "noise4_Confocal_BPAE_B": {
+        "noise": 4,
+        "type": "Confocal_BPAE_B",
+        "samples": 200,
+        "psnr": 41.49408576965332,
+        "ssim": 0.9870484219163447,
+        "time": 0.003149676322937012
+    },
+    "noise4_Confocal_FISH": {
+        "noise": 4,
+        "type": "Confocal_FISH",
+        "samples": 200,
+        "psnr": 35.83593200683594,
+        "ssim": 0.9421623179777902,
+        "time": 0.002596468925476074
+    },
+    "noise4_WideField_BPAE_R": {
+        "noise": 4,
+        "type": "WideField_BPAE_R",
+        "samples": 200,
+        "psnr": 39.07464233398437,
+        "ssim": 0.9437533092270115,
+        "time": 0.0026227474212646485
+    },
+    "noise4_WideField_BPAE_G": {
+        "noise": 4,
+        "type": "WideField_BPAE_G",
+        "samples": 200,
+        "psnr": 36.021311111450196,
+        "ssim": 0.886927892691009,
+        "time": 0.002804737091064453
+    },
+    "noise4_WideField_BPAE_B": {
+        "noise": 4,
+        "type": "WideField_BPAE_B",
+        "samples": 200,
+        "psnr": 37.71484260559082,
+        "ssim": 0.9505021948950927,
+        "time": 0.0029680013656616213
+    },
+    "noise4_test_mix": {
+        "noise": 4,
+        "type": "test_mix",
+        "samples": 192,
+        "psnr": 37.63462201754252,
+        "ssim": 0.9481638851409975,
+        "time": 0.003084510564804077
+    },
+    "noise8_TwoPhoton_BPAE_R": {
+        "noise": 8,
+        "type": "TwoPhoton_BPAE_R",
+        "samples": 200,
+        "psnr": 42.51632659912109,
+        "ssim": 0.9741772952977326,
+        "time": 0.0026778268814086916
+    },
+    "noise8_TwoPhoton_BPAE_G": {
+        "noise": 8,
+        "type": "TwoPhoton_BPAE_G",
+        "samples": 200,
+        "psnr": 35.51878807067871,
+        "ssim": 0.9367518543892683,
+        "time": 0.002757601737976074
+    },
+    "noise8_TwoPhoton_BPAE_B": {
+        "noise": 8,
+        "type": "TwoPhoton_BPAE_B",
+        "samples": 200,
+        "psnr": 34.86508750915527,
+        "ssim": 0.9584809999236593,
+        "time": 0.003098268508911133
+    },
+    "noise8_TwoPhoton_MICE": {
+        "noise": 8,
+        "type": "TwoPhoton_MICE",
+        "samples": 200,
+        "psnr": 37.08242042541504,
+        "ssim": 0.9491096863462412,
+        "time": 0.0029797935485839843
+    },
+    "noise8_Confocal_MICE": {
+        "noise": 8,
+        "type": "Confocal_MICE",
+        "samples": 200,
+        "psnr": 43.0416674041748,
+        "ssim": 0.984067024448034,
+        "time": 0.002860569953918457
+    },
+    "noise8_Confocal_BPAE_R": {
+        "noise": 8,
+        "type": "Confocal_BPAE_R",
+        "samples": 200,
+        "psnr": 42.074947662353516,
+        "ssim": 0.9840549044040904,
+        "time": 0.0027085256576538084
+    },
+    "noise8_Confocal_BPAE_G": {
+        "noise": 8,
+        "type": "Confocal_BPAE_G",
+        "samples": 200,
+        "psnr": 37.98292533874512,
+        "ssim": 0.9647811949451769,
+        "time": 0.0027938222885131835
+    },
+    "noise8_Confocal_BPAE_B": {
+        "noise": 8,
+        "type": "Confocal_BPAE_B",
+        "samples": 200,
+        "psnr": 42.92894378662109,
+        "ssim": 0.990337214048352,
+        "time": 0.002561979293823242
+    },
+    "noise8_Confocal_FISH": {
+        "noise": 8,
+        "type": "Confocal_FISH",
+        "samples": 200,
+        "psnr": 37.235975952148436,
+        "ssim": 0.9539505622236186,
+        "time": 0.002733602523803711
+    },
+    "noise8_WideField_BPAE_R": {
+        "noise": 8,
+        "type": "WideField_BPAE_R",
+        "samples": 200,
+        "psnr": 40.865700302124026,
+        "ssim": 0.9567186686776279,
+        "time": 0.002985820770263672
+    },
+    "noise8_WideField_BPAE_G": {
+        "noise": 8,
+        "type": "WideField_BPAE_G",
+        "samples": 200,
+        "psnr": 37.64606185913086,
+        "ssim": 0.9162416737392806,
+        "time": 0.0026944494247436524
+    },
+    "noise8_WideField_BPAE_B": {
+        "noise": 8,
+        "type": "WideField_BPAE_B",
+        "samples": 200,
+        "psnr": 38.592299423217774,
+        "ssim": 0.9562996387083419,
+        "time": 0.002798471450805664
+    },
+    "noise8_test_mix": {
+        "noise": 8,
+        "type": "test_mix",
+        "samples": 192,
+        "psnr": 39.41730817159017,
+        "ssim": 0.9600976506958548,
+        "time": 0.0025574962298075357
+    },
+    "noise16_TwoPhoton_BPAE_R": {
+        "noise": 16,
+        "type": "TwoPhoton_BPAE_R",
+        "samples": 200,
+        "psnr": 45.08524269104004,
+        "ssim": 0.9840577236927023,
+        "time": 0.002941694259643555
+    },
+    "noise16_TwoPhoton_BPAE_G": {
+        "noise": 16,
+        "type": "TwoPhoton_BPAE_G",
+        "samples": 200,
+        "psnr": 38.14428497314453,
+        "ssim": 0.962612762795006,
+        "time": 0.002661762237548828
+    },
+    "noise16_TwoPhoton_BPAE_B": {
+        "noise": 16,
+        "type": "TwoPhoton_BPAE_B",
+        "samples": 200,
+        "psnr": 37.60000633239746,
+        "ssim": 0.9687741441702238,
+        "time": 0.002686772346496582
+    },
+    "noise16_TwoPhoton_MICE": {
+        "noise": 16,
+        "type": "TwoPhoton_MICE",
+        "samples": 200,
+        "psnr": 39.3765323638916,
+        "ssim": 0.9611962090072219,
+        "time": 0.0026999711990356445
+    },
+    "noise16_Confocal_MICE": {
+        "noise": 16,
+        "type": "Confocal_MICE",
+        "samples": 200,
+        "psnr": 44.93857345581055,
+        "ssim": 0.9881625203310496,
+        "time": 0.0026039838790893554
+    },
+    "noise16_Confocal_BPAE_R": {
+        "noise": 16,
+        "type": "Confocal_BPAE_R",
+        "samples": 200,
+        "psnr": 43.79141822814941,
+        "ssim": 0.9890288829532841,
+        "time": 0.0025615167617797853
+    },
+    "noise16_Confocal_BPAE_G": {
+        "noise": 16,
+        "type": "Confocal_BPAE_G",
+        "samples": 200,
+        "psnr": 39.78986602783203,
+        "ssim": 0.9770220625564702,
+        "time": 0.002688326835632324
+    },
+    "noise16_Confocal_BPAE_B": {
+        "noise": 16,
+        "type": "Confocal_BPAE_B",
+        "samples": 200,
+        "psnr": 44.70659950256348,
+        "ssim": 0.9928832385669847,
+        "time": 0.00267545223236084
+    },
+    "noise16_Confocal_FISH": {
+        "noise": 16,
+        "type": "Confocal_FISH",
+        "samples": 200,
+        "psnr": 38.95243927001953,
+        "ssim": 0.9658482500745815,
+        "time": 0.0026377153396606443
+    },
+    "noise16_WideField_BPAE_R": {
+        "noise": 16,
+        "type": "WideField_BPAE_R",
+        "samples": 200,
+        "psnr": 42.94210571289062,
+        "ssim": 0.9694269728989424,
+        "time": 0.003319206237792969
+    },
+    "noise16_WideField_BPAE_G": {
+        "noise": 16,
+        "type": "WideField_BPAE_G",
+        "samples": 200,
+        "psnr": 39.76323097229004,
+        "ssim": 0.9454413619922031,
+        "time": 0.002952909469604492
+    },
+    "noise16_WideField_BPAE_B": {
+        "noise": 16,
+        "type": "WideField_BPAE_B",
+        "samples": 200,
+        "psnr": 40.07791770935059,
+        "ssim": 0.9658134728030112,
+        "time": 0.0030431699752807616
+    },
+    "noise16_test_mix": {
+        "noise": 16,
+        "type": "test_mix",
+        "samples": 192,
+        "psnr": 41.411832888921104,
+        "ssim": 0.9724387372220521,
+        "time": 0.0027915934721628823
+    }
+}

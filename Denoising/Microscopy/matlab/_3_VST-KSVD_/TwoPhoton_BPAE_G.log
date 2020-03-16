@@ -1,0 +1,139 @@
+
+ ----- The 1 / 2 realization -----
+Denoising operation starts
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click <a href="matlab:opengl('problems')">here</a>.] 
+Iteration   2   Average number of coefficients: 0.26395
+Iteration   3   Average number of coefficients: 0.24635
+Iteration   4   Average number of coefficients: 0.23865
+Iteration   5   Average number of coefficients: 0.23537
+Iteration   6   Average number of coefficients: 0.23323
+Iteration   7   Average number of coefficients: 0.232
+Iteration   8   Average number of coefficients: 0.23137
+Iteration   9   Average number of coefficients: 0.23072
+Iteration   10   Average number of coefficients: 0.23022
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 0.97802
+Iteration   3   Average number of coefficients: 0.92532
+Iteration   4   Average number of coefficients: 0.85994
+Iteration   5   Average number of coefficients: 0.80888
+Iteration   6   Average number of coefficients: 0.78158
+Iteration   7   Average number of coefficients: 0.76434
+Iteration   8   Average number of coefficients: 0.75468
+Iteration   9   Average number of coefficients: 0.74802
+Iteration   10   Average number of coefficients: 0.74298
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 1.9286
+Iteration   3   Average number of coefficients: 1.8439
+Iteration   4   Average number of coefficients: 1.7522
+Iteration   5   Average number of coefficients: 1.637
+Iteration   6   Average number of coefficients: 1.553
+Iteration   7   Average number of coefficients: 1.5067
+Iteration   8   Average number of coefficients: 1.4768
+Iteration   9   Average number of coefficients: 1.4573
+Iteration   10   Average number of coefficients: 1.4431
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 3.127
+Iteration   3   Average number of coefficients: 3.005
+Iteration   4   Average number of coefficients: 2.8928
+Iteration   5   Average number of coefficients: 2.7628
+Iteration   6   Average number of coefficients: 2.6418
+Iteration   7   Average number of coefficients: 2.5474
+Iteration   8   Average number of coefficients: 2.4823
+Iteration   9   Average number of coefficients: 2.4388
+Iteration   10   Average number of coefficients: 2.4068
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 4.611
+Iteration   3   Average number of coefficients: 4.4593
+Iteration   4   Average number of coefficients: 4.3336
+Iteration   5   Average number of coefficients: 4.1943
+Iteration   6   Average number of coefficients: 4.0603
+Iteration   7   Average number of coefficients: 3.9505
+Iteration   8   Average number of coefficients: 3.8617
+Iteration   9   Average number of coefficients: 3.7938
+Iteration   10   Average number of coefficients: 3.7367
+finished Trainning dictionary
+Denoising operation ends
+
+ ----- The 2 / 2 realization -----
+Denoising operation starts
+Iteration   2   Average number of coefficients: 0.40942
+Iteration   3   Average number of coefficients: 0.38637
+Iteration   4   Average number of coefficients: 0.36592
+Iteration   5   Average number of coefficients: 0.35443
+Iteration   6   Average number of coefficients: 0.3486
+Iteration   7   Average number of coefficients: 0.34502
+Iteration   8   Average number of coefficients: 0.34266
+Iteration   9   Average number of coefficients: 0.34077
+Iteration   10   Average number of coefficients: 0.33955
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 0.71558
+Iteration   3   Average number of coefficients: 0.66134
+Iteration   4   Average number of coefficients: 0.61626
+Iteration   5   Average number of coefficients: 0.59211
+Iteration   6   Average number of coefficients: 0.57774
+Iteration   7   Average number of coefficients: 0.56983
+Iteration   8   Average number of coefficients: 0.56449
+Iteration   9   Average number of coefficients: 0.56054
+Iteration   10   Average number of coefficients: 0.55731
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 2.0021
+Iteration   3   Average number of coefficients: 1.9183
+Iteration   4   Average number of coefficients: 1.8314
+Iteration   5   Average number of coefficients: 1.7202
+Iteration   6   Average number of coefficients: 1.6262
+Iteration   7   Average number of coefficients: 1.5695
+Iteration   8   Average number of coefficients: 1.5354
+Iteration   9   Average number of coefficients: 1.5164
+Iteration   10   Average number of coefficients: 1.5015
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 3.2328
+Iteration   3   Average number of coefficients: 3.1124
+Iteration   4   Average number of coefficients: 3.0085
+Iteration   5   Average number of coefficients: 2.8907
+Iteration   6   Average number of coefficients: 2.7675
+Iteration   7   Average number of coefficients: 2.6639
+Iteration   8   Average number of coefficients: 2.594
+Iteration   9   Average number of coefficients: 2.5477
+Iteration   10   Average number of coefficients: 2.5108
+finished Trainning dictionary
+Denoising operation ends
+Denoising operation starts
+Iteration   2   Average number of coefficients: 4.1483
+Iteration   3   Average number of coefficients: 4.0008
+Iteration   4   Average number of coefficients: 3.8765
+{Operation terminated by user during pinv (line 18)
+
+
+In OMPerr (line 30)
+        a=pinv(D(:,indx(1:j)))*x;
+
+In KSVD (line 120)
+        CoefMatrix = OMPerr([FixedDictionaryElement,Dictionary],Data, param.errorGoal);
+
+In denoiseImageKSVD (line 166)
+[Dictionary,output] = KSVD(blkMatrix,param);
+
+In denoise_VST_KSVD (line 36)
+    [D, ~] = denoiseImageKSVD(fz*255, sigma_den*255, K);
+
+In benchmark_VST_KSVD (line 68)
+        TIME_avg(i_repeat, data_name_ID) = mean([time_avg1, time_avg2, ...
+
+In run (line 91)
+evalin('caller', strcat(script, ';'));
+} 
+quit()
