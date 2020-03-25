@@ -1,5 +1,6 @@
 # Stochastic Frequency Masking for Learning Super-Resolution and Denoising
 
+### [Supplementary Material](https://github.com/sfm-sr-denoising/sfm/blob/master/SFM_supp.pdf)
 
 ## Abstract
 Super-resolution and denoising are ill-posed yet fundamental image restoration tasks. In blind settings, the degradation kernel or the noise level are unknown. This makes restoration even more challenging, notably for learning-based methods, as they tend to overfit to the degradation seen during training. 
