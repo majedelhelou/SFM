@@ -97,6 +97,8 @@ for epoch in range(opt.start_epoch, opt.nEpochs):
     for iteration, batch in enumerate(training_data_loader, 1):
         x_data, z_data = Variable(batch[0].float()).cuda(), Variable(batch[1].float()).cuda()
         output = model(z_data)
+        loss = L1criterion(output, x_data)
+        mseloss = MSEcriterion(output, x_data)
         
         if (opt.net == 'ESRGAN'):
             x_data_gan, z_data_gan = next(iter(training_data_loader_gan))
