@@ -1,9 +1,16 @@
-# Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks
+# [Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks](https://arxiv.org/abs/2003.07119)
+
+**Authors**: [Majed El Helou](https://majedelhelou.github.io/), Ruofan Zhou, and Sabine Süsstrunk
+
+*First two authors have similar contributions and are both contact authors.*
+
 ### [Supplementary Material](https://github.com/sfm-sr-denoising/sfm/blob/master/SFM_supp.pdf)
 
 > **Abstract:** *Super-resolution and denoising are ill-posed yet fundamental image restoration tasks. In blind settings, the degradation kernel or the noise level are unknown. This makes restoration even more challenging, notably for learning-based methods, as they tend to overfit to the degradation seen during training.*
 >
 > *We present an analysis, in the frequency domain, of degradation-kernel overfitting in super-resolution and introduce a conditional learning perspective that extends to both super-resolution and denoising. Building on our formulation, we propose a stochastic frequency masking of images used in training to regularize the networks and address the overfitting problem. Our technique improves state-of-the-art methods on blind super-resolution with different synthetic kernels, real super-resolution, blind Gaussian denoising, and real-image denoising.*
+
+**Key take-aways:** our paper explains deep SR overfitting in the frequency domain and shows that deep SR networks predict a fixed set of frequency bands, depending on training, and fail to generalize. As it is impossible to train on all possible kernels, including for methods that learn to predict those kernels, SFM simulates a spanning set for degradation kernels in the frequency domain. This improves frequency restoration and generalization. We also tie denoising to SR, in the frequency domain, and show how SFM can improve denoising performance notably on high noise levels.
 
 ## Frequency perspective 
 We visualize in the frequency domain the effect of training a super-resolution network with a certain degradation kernel, and testing it on a different one. An example illustration is shown below:
@@ -53,5 +60,13 @@ To reproduce our denoising experiments, we make the pre-trained models and re-tr
   <img src="figures/pipeline_denoise.png" width="600px"/>
 </p>
 
+## Citation
+
+    @inproceedings{elhelou2020stochastic,
+        title={Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks},
+        author={El Helou, Majed and Zhou, Ruofan and S{\"u}sstrunk, Sabine},
+        booktitle={ECCV},
+        year={2020}
+    }
 
 
