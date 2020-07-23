@@ -4,7 +4,7 @@
 
 *First two authors have similar contributions and are both contact authors.*
 
-### [Paper](https://arxiv.org/abs/2003.07119) [Supplementary](https://github.com/majedelhelou/SFM/blob/master/SFM_supp.pdf)
+#### [[Paper]](https://arxiv.org/abs/2003.07119) - [[Supplementary]](https://github.com/majedelhelou/SFM/blob/master/SFM_supp.pdf)
 
 > **Abstract:** *Super-resolution and denoising are ill-posed yet fundamental image restoration tasks. In blind settings, the degradation kernel or the noise level are unknown. This makes restoration even more challenging, notably for learning-based methods, as they tend to overfit to the degradation seen during training.*
 >
