@@ -38,7 +38,7 @@ import numpy as np
 from utils_SFM import random_drop
 
 DCT_DOR = 0.5 #for a 50% SFM rate (DCT dropout rate)
-image_SFM = np.zeros(image.size(),dtype='float32')
+image_SFM = image.clone()
 dct_bool = np.random.choice([1, 0], size=(image.size()[0],), p=[DCT_DOR, 1-DCT_DOR])
 for img_idx in range(image.size()[0]):
     if dct_bool[img_idx] == 1:
