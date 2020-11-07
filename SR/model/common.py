@@ -189,7 +189,7 @@ class Hdf5Dataset(data.Dataset):
         
         # SFM
         if (sfm > 0 and random.random() > 0.5):
-            img_lr_masked, mask = random_drop(lr_img, mode=0)
+            lr_img, mask = random_drop(lr_img, mode=0)
         if (lr_dataset != 'None'):
             lr_img = cv2.imresize(lr_img, (0,0), fx=1/scale, fy=1/scale)
         
