@@ -61,12 +61,12 @@ To reproduce our denoising experiments, we make the pre-trained models and re-tr
 </p>
 
 ## Citation
-
-    @inproceedings{elhelou2020stochastic,
-        title={Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks},
-        author={El Helou, Majed and Zhou, Ruofan and S{\"u}sstrunk, Sabine},
-        booktitle={ECCV},
-        year={2020}
-    }
-
+```bibtex
+@inproceedings{elhelou2020stochastic,
+    title     = {Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks},
+    author    = {El Helou, Majed and Zhou, Ruofan and S{\"u}sstrunk, Sabine},
+    booktitle = {ECCV},
+    year      = {2020}
+}
+```
 
