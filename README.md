@@ -2,7 +2,9 @@
 
 **Authors**: [Majed El Helou](https://majedelhelou.github.io/), Ruofan Zhou, and Sabine Süsstrunk
 
-*First two authors have similar contributions and are both contact authors.*
+**Further readings**:
+* This work inspired our [W2S](https://github.com/IVRL/w2s) (ECCVW'20), [DEU](https://github.com/IVRL/DEU) (ICIP'21), [FG-NIC](https://github.com/IVRL/FG-NIC) (SP Letters'21), and [CCID](https://github.com/IVRL/CCID) (EI'22) papers.
+* We further studied the concept of restoration hallucination in [BUIFD](https://github.com/majedelhelou/BUIFD) (TIP'20), and [BIGPrior](https://github.com/majedelhelou/BIGPrior) (TIP'22). 
 
 #### [[Paper]](https://arxiv.org/abs/2003.07119) - [[Supplementary]](https://github.com/majedelhelou/SFM/blob/master/SFM_supp.pdf) - [[Video]](https://www.youtube.com/watch?v=9ndox0p2gFg)
 
